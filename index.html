@@ -5,28 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de vida</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <img src="img/foto.jpg" alt="fotoHv" height="15%" width="15%">
+    
+    <header>           
+            <img id="fotoHv" src="img/foto.jpeg" alt="fotoHv" >  
+             <h1>Arturo Londoño Muñoz</h1> 
+             <h5>tecnico en sistemas</h5>
+             <h5>arturolm2008@gmail.com</h5>
+            <a href="https://www.linkedin.com/in/arturo-londono-807a321a4/"><img src="img/linkedin.png" alt="linkeind"></a>
 
-        <h1>Arturo Londoño Muñoz</h1>
-        <a href="https://www.linkedin.com/in/arturo-londono-807a321a4/">Linkedin</a>
     </header>
-    <hr>
+
     <nav>
-        <h2>Indice</h2>
         <ul>
             <li><a href="#acerca">Acerca de mi</a></li>
             <li><a href="#experiencia">Experiencia laboral</a></li>
             <li><a href="#formacion">Formacion Academica</a></li>
             <li><a href="#idiomas">Idiomas</a></li>
-            <li><a href="#conocimeinto">Conocimientos Tecnicos</a></li>
-            <li><a href="#contacto">Contactame</a></li>
+            <li><a href="#conocimiento">Conocimientos Tecnicos</a></li>
+            <li style="float:right"><a href="#contacto" >Contactame</a></li>
         </ul>
     </nav>
-    <hr>
+
     <section id="acerca">
         <h2>Acerca de mi</h2>
         <p>
@@ -35,7 +38,7 @@
             programacion con el fin de crear soluciones de software como aplicaciones web.
         </p>
     </section>
-    <hr>
+    
     <section id="experiencia">
         <h2>Experiencia Laboral</h2>
         <ul>
@@ -63,7 +66,7 @@
 
         </ul>
     </section>
-    <hr>
+    
     <section id="formacion">
         <h2>Formacion Academica</h2>
         <ol>
@@ -72,7 +75,6 @@
         </ol>
 
     </section>
-    <hr>
     <section id="idiomas">
         <h2>Idiomas</h2>
             <table border="1">
@@ -90,8 +92,8 @@
                 </tr>
             </table>
     </section>
-    <hr>
-    <section id="conocimientos">
+    
+    <section id="conocimiento">
         <h2>Conocimiento Tecnicos</h2>
         <table border="1">
             <thead>
@@ -102,28 +104,28 @@
             </thead>
             <tbody>
                 <tr>
-                    <th>HTML</th>
-                    <th>Intermedio</th>
+                    <td>HTML</td>
+                    <td>Intermedio</td>
                 </tr>
                 <tr>
-                    <th>CSS</th>
-                    <th>Intermedio</th>
+                    <td>CSS</td>
+                    <td>Intermedio</td>
                 </tr>
                 <tr>
-                    <th>Javascript</th>
-                    <th>Intermedio</th>
+                    <td>Javascript</td>
+                    <td>Intermedio</td>
                 </tr>
                 <tr>
-                    <th>Git</th>
-                    <th>Intermedio</th>
+                    <td>Git</td>
+                    <td>Intermedio</td>
                 </tr>
             </tbody>
         </table>
     </section>
-    <hr>
-    <section>
+    
+    <section id="contacto">
         <h2>Contactame</h2>
-            <form>
+        <form>
             <fieldset>
             <legend>Informacion de contacto:</legend>
             <label for="name">Nombre:</label><br>
@@ -137,6 +139,7 @@
             <input type="submit" value="submit">
             </fieldset>
         </form>
+
     </section>
     
 
